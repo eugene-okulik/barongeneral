@@ -1,10 +1,6 @@
-a = 1
-b = 2   
-
-summa = a + b
-raznost = a - b
-proizvedenie = a * b
-
-print(f"{summa}")
-print(f"{raznost}")
-print(f"{proizvedenie}")
+a = 13
+b = 21
+sum_res = a + b
+diff_res = a - b
+prod_res = a * b
+print(sum_res, diff_res, prod_res)

@@ -1,11 +1,9 @@
 import math
 
-katet1 = 10
-katet2 = 4
+a = 3
+b = 4
 
-gipotenuza = math.sqrt(katet1**2 + katet2**2)
+hypotenuse = math.sqrt(a**2 + b**2)
+area = (a * b) / 2
 
-ploshad = (katet1 * katet2) / 2
-
-print(f"{gipotenuza}")
-print(f"{ploshad}")
+print(hypotenuse, area)
