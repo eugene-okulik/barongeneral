@@ -1,6 +1,12 @@
-def process_result(line):
+def get_number(line):
     return int(line.split()[-1]) + 10
 
-lines = ["результат операции: 42", "результат операции: 54", "результат работы программы: 209", "результат: 2"]
+lines = [
+    "результат операции: 42",
+    "результат операции: 54",
+    "результат работы программы: 209",
+    "результат: 2"
+]
 
-list(map(lambda x: print(process_result(x)), lines))
+for line in lines:
+    print(get_number(line))
