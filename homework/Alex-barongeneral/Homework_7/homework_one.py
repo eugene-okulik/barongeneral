@@ -1,6 +1,6 @@
-secret_number = 19  
+secret_number = 19
 while True:
-    user_input = input("Угадайте цифру (или введите 'Выход' для выхода): ")  
+    user_input = input("Угадайте цифру (или введите 'Выход' для выхода): ")
     if user_input == "Выход":
         print("До свидания!")
         break
