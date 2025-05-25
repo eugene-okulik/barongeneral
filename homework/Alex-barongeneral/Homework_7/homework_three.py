@@ -12,4 +12,3 @@ lines = [
 
 for line in lines:
     print(get_number(line))
-    
