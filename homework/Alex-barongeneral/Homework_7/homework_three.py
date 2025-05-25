@@ -1,4 +1,4 @@
-def get_number(line):
+def  get_number(line):
     return int(line.split()[-1]) + 10
 
 lines = [
